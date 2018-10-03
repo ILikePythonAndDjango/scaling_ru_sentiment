@@ -1,0 +1,12 @@
+#binary files
+__pycache__
+*.pyc
+
+#databases
+*.sqlite*
+
+#logs files
+*.log
+
+#virtual environment
+.virt

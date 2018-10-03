@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  runserver:
+    build: .
+    command: ./run.sh
+    environment:
+      - DEBUG=1
+      - SECRET_KEY='yhi(#(k0mr#bo^h!5&jgn_h@7ml!mjyoxs++c=ntz*h130(=(='
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
